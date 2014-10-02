@@ -35,7 +35,7 @@ public class DecimalCollectionTest {
 	
 	@Test
 	public void testMultiplicarTodosLosDecimales(){
-	    assertTrue(decimalCollection.MultiplicarTodosLosDecimales() == 0.006);
+	    assertEquals(0.006, decimalCollection.MultiplicarTodosLosDecimales(), 10e-3);
 	}
 
 }
