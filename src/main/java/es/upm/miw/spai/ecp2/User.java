@@ -39,7 +39,6 @@ public class User {
     }
 
     public String MostrarNombreEnMayusculas() {
-        // TODO Auto-generated method stub
-        return null;
+        return this.name.toUpperCase();
     }
 }
