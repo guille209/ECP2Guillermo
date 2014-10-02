@@ -75,4 +75,8 @@ public class Fraction {
         return null;
     }
     
+    public double suma(Fraction fraction){
+    	return this.decimal()+fraction.decimal();
+    }
+    
 }
