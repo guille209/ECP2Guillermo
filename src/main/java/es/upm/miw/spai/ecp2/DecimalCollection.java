@@ -35,4 +35,9 @@ public class DecimalCollection {
         return higher;
     }
 
+    public double MultiplicarTodosLosDecimales() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
 }
