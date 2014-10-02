@@ -36,8 +36,11 @@ public class DecimalCollection {
     }
 
     public double MultiplicarTodosLosDecimales() {
-        // TODO Auto-generated method stub
-        return 0;
+        double resultado = 1;
+        for(double item : this.collection){
+            resultado *= item;
+        }
+        return resultado;
     }
 
 }
