@@ -61,8 +61,10 @@ public class Fraction {
     }
 
     public Fraction sumar(Fraction fraccion2) {
-        // TODO Auto-generated method stub
-        return null;
+    	Fraction suma = new Fraction();
+    	suma.numerator = (this.numerator*fraccion2.denominator)+(fraccion2.numerator*this.denominator);
+    	suma.denominator = this.denominator*+fraccion2.denominator;
+    	return suma;
     }
 
     public Fraction multiplicar(Fraction multiplo) {
@@ -74,9 +76,4 @@ public class Fraction {
         // TODO Auto-generated method stub
         return null;
     }
-    
-    public double suma(Fraction fraction){
-    	return this.decimal()+fraction.decimal();
-    }
-    
 }
