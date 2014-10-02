@@ -50,13 +50,13 @@ public class PointTest {
     
     @Test
     public void testModificarCoordenadaX(){
-    	this.pt.setX(1);
+    	this.pt.modificarCoordenadaX(1);
     	assertEquals(1, pt.getX());
     }
     
     @Test
     public void testModificarCoordenadaY(){
-    	this.pt.setY(0);
+    	this.pt.modificarCoordenadaY(0);
     	assertEquals(0, pt.getY());
     	
     }    
