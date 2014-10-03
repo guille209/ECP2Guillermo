@@ -38,7 +38,7 @@ public class User {
         return this.name.substring(0, 1) + ".";
     }
 
-    public String MostrarNombreEnMayusculas() {
-        return this.name.toUpperCase();
+    public String mostrarNombreEnMayusculas() {
+        return getName().toUpperCase();
     }
 }

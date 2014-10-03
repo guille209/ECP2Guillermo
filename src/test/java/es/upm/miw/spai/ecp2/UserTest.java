@@ -28,7 +28,7 @@ public class UserTest {
 	
 	@Test
 	public void testMostrarNombreEnMayusculas(){
-	    assertTrue("GUILLERMO" == user.MostrarNombreEnMayusculas());
+	    assertTrue(user.mostrarNombreEnMayusculas().equals("GUILLERMO"));
 	}
 
 }
