@@ -35,4 +35,12 @@ public class DecimalCollection {
         return higher;
     }
 
+    public double MultiplicarTodosLosDecimales() {
+        double resultado = 1;
+        for(double item : this.collection){
+            resultado *= item;
+        }
+        return resultado;
+    }
+
 }

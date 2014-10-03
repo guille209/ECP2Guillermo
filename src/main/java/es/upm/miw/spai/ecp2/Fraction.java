@@ -59,5 +59,20 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
-    
+
+    public Fraction sumar(Fraction fraccion2) {
+    	Fraction suma = new Fraction();
+    	suma.numerator = (this.numerator*fraccion2.denominator)+(fraccion2.numerator*this.denominator);
+    	suma.denominator = this.denominator*+fraccion2.denominator;
+    	return suma;
+    }
+
+    public Fraction multiplicar(Fraction multiplo) {
+        return new Fraction(this.numerator * multiplo.getNumerator(), this.denominator * multiplo.getDenominator());     
+        
+    }
+
+    public String mostrar() {
+        return this.numerator+"/"+this.denominator;
+    }
 }

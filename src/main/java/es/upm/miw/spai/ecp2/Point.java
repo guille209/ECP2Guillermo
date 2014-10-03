@@ -23,6 +23,14 @@ public class Point {
     public int getY() {
         return this.y;
     }
+    
+    public void modificarCoordenadaX(int x){
+    	this.x = x;
+   }
+    
+    public void modificarCoordenadaY(int y){
+    	this.y = y;
+    }    
 
     public double module() {
         return Math.sqrt(this.x * this.x + this.y * this.y);

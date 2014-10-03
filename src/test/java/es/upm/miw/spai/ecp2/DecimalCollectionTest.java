@@ -32,5 +32,10 @@ public class DecimalCollectionTest {
 	public void testHigher() {
 		assertEquals(0.3, decimalCollection.higher(), 10e-3);
 	}
+	
+	@Test
+	public void testMultiplicarTodosLosDecimales(){
+	    assertEquals(0.006, decimalCollection.MultiplicarTodosLosDecimales(), 10e-3);
+	}
 
 }

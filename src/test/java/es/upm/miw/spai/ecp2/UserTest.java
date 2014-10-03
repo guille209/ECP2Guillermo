@@ -16,20 +16,19 @@ public class UserTest {
 	@Test
 	public void testUser() {
 		assertEquals(123, user.getNumber());
-        assertEquals("Guillermo", user.getName());
-        assertEquals("Miranda", user.getFamilyName());
+		assertEquals("Guillermo", user.getName());
+		assertEquals("Miranda", user.getFamilyName());
 	}
 
 	@Test
 	public void testInitials() {
-        assertEquals("G.", user.initials());
+		assertEquals("G.", user.initials());
 
 	}
-	
+
 	@Test
-	public void testMostrarNombreEnMayusculas()
-	{
-	    assertTrue("GUILLERMO" == user.MostrarNombreEnMayusculas());
+	public void testMostrarNombreEnMayusculas() {
+		assertTrue(user.mostrarNombreEnMayusculas().equals("GUILLERMO"));
 	}
 
 }
