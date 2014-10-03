@@ -24,12 +24,12 @@ public class Point {
         return this.y;
     }
     
-    public void setX(int x){
-
-    }
+    public void modificarCoordenadaX(int x){
+    	this.x = x;
+   }
     
-    public void setY(int y){
-
+    public void modificarCoordenadaY(int y){
+    	this.y = y;
     }    
 
     public double module() {
