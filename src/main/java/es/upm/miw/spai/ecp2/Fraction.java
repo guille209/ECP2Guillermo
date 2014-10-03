@@ -72,8 +72,7 @@ public class Fraction {
         
     }
 
-    public Object mostrar() {
-        // TODO Auto-generated method stub
-        return null;
+    public String mostrar() {
+        return this.numerator+"/"+this.denominator;
     }
 }
